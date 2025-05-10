@@ -22,6 +22,9 @@ newsRouter.get('', async (req, res) => {
     }
 })
 
+
+
+
 newsRouter.get('/:id', async (req, res) => {
     let articleID = req.params.id
 
